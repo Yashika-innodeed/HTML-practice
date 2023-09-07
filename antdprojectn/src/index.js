@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ButtonJS from './antDButton';
+import {  DatePicker } from 'antd';
+import CheckboxAntD  from './antdCheckbox';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <ButtonJS />
+    <DatePicker />
+    <CheckboxAntD />
   </React.StrictMode>
 );
 
