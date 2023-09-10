@@ -6,14 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import ButtonJS from './antDButton';
 import {  DatePicker } from 'antd';
 import CheckboxAntD  from './antdCheckbox';
+import Demo from './loginform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <ButtonJS />
-    <DatePicker />
-    <CheckboxAntD />
+    <Demo />
   </React.StrictMode>
 );
 
