@@ -45,3 +45,16 @@ h1:hover{
   padding: 10px;
   margin: 10px;
 }
+
+.one{
+  font: 12px/14px sans-serif;
+}
+.two{
+  font: 80% sans-serif;
+}
+.three{
+  font: bold italic large serif;
+}
+.four{
+  font: status-bar;
+}
