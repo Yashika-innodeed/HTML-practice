@@ -25,3 +25,18 @@ q -= 3; // q is 10
 q *= 2; // q is 20
 q /= 4; // q is 5
 console.log(q);
+
+//comparison operators
+
+5 == "5"; // true
+5 === "5"; //false
+5 != "10"; //true
+5 !== "10"; //true
+10 > 5; //true
+5 < 10; //true
+10 >= 10; //true
+5 <= 10; //true
+(5 > 3) && (10 < 20); //true
+(5 > 10) || (10 < 20); //true
+!(5 > 3); //false
+
