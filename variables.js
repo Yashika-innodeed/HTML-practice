@@ -9,8 +9,8 @@ function sayHello() {
 }
 
 sayHello();
-console.log(uname); // Output: John
-console.log(age1);  // Output: 30
+console.log(uname); 
+console.log(age1);  
 //console.log(message);  Error: message is not defined
 
 
@@ -20,14 +20,14 @@ let username = "John";
 let age2 = 30;
 
 if (true) {
-  let username = "Jane"; // This 'name' variable is different from the one above
-  age2 = 25; // This modifies the outer 'age' variable
-  console.log(username); // Output: Jane
-  console.log(age2);  // Output: 25
+  let username = "Jane"; 
+  age2 = 25; 
+  console.log(username); 
+  console.log(age2);  
 }
 
-console.log(username); // Output: John
-console.log(age2);  // Output: 25 (modified inside the block)
+console.log(username); 
+console.log(age2);  
 
 //const
 
@@ -39,6 +39,6 @@ const person = {
   age3: 30
 };
 
-person.age3 = 31; // This is allowed, as it's modifying a property, not reassigning the variable
+person.age3 = 31; 
 
-console.log(person); // Output: { name: "John", age: 31 }
+console.log(person); 
